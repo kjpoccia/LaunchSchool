@@ -1,16 +1,6 @@
-def stringy(num)
-  i = 0
-  str = ''
-  while i < num
-    if i % 2 == 0
-      str += '1'
-      i += 1
-    else
-      str += '0'
-      i += 1
-    end
-  end
-  str
-end
+require 'pry'
 
-p stringy(10)
+a = [1, 2, 3]
+a << 4
+binding.pry
+puts a
